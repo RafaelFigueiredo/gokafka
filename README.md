@@ -12,7 +12,7 @@ docker-compose up --build
 Attach to kafka container and create a topic
 ```bash
 docker exec -it gokafka_kafka_1 bash
-# kafka-topics --create --topic test --partitions=2 --bootstrap-server localhost:9092
+kafka-topics --create --topic test --partitions=2 --bootstrap-server localhost:9092
 ```
 
 Start consumer
