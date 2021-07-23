@@ -1,4 +1,4 @@
-# gokafka
+# Gokafka
 
 Kafka project using golang, based on code.education fullcycle course
 
